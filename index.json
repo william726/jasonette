@@ -1,6 +1,14 @@
 {
   "$jason": {
     "body": {
+      "header": {
+        "menu": {
+          "text": "Back",
+          "action": {
+            "type": "$back"
+          }
+        }
+      },
       "background": {
         "type": "html",
         "url": "https://github.com",
