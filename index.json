@@ -13,7 +13,7 @@
         "type": "html",
         "url": "https://github.com",
         "action": {
-          "trigger": "$default"
+          "type": "$default"
         }
       }
     }
