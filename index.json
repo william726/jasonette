@@ -1,20 +1,6 @@
 {
   "$jason": {
     "body": {
-      "header": {
-        "menu": {
-          "items": [{
-            "type": "vertical",
-            "components": [{
-              "type": "button",
-              "text": "Back",
-              "action": {
-                "type": "$back"
-              }
-            }]
-          }]
-        }
-      },
       "background": {
         "type": "html",
         "url": "https://github.com",
