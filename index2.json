@@ -27,18 +27,18 @@
                 }
             },
             "templates": {
-                "header": {
-                    "title": "Test App",
-                    "style": {
-                      "background": "#ff0000"
-                    }
-                },
                 "body": {
                     "background": {
                         "type": "html",
                         "url": "{{$get.url}}",
                         "action": {
                             "trigger": "navigate"
+                        }
+                    },
+                    "header": {
+                        "title": "Test App",
+                        "style": {
+                          "background": "#ff0000"
                         }
                     }
                 }
