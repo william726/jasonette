@@ -1,0 +1,24 @@
+{
+    "$jason": {
+        "head": {
+            "title": "Web Container Native Transition",
+            "templates": {
+                "body": {
+                    "background": {
+                        "type": "html",
+                        "url": "https.github.com",
+                        "action": {
+                            "trigger": "$default"
+                        }
+                    },
+                    "header": {
+                        "title": "Test App",
+                        "style": {
+                          "background": "#808080"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
