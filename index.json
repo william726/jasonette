@@ -1,33 +1,25 @@
 {
   "$jason": {
-    "head": {
-      "title": "Test Transition",
-      "actions": {
-        "navigate" :{
-          "type": "$href",
-          "options": {
-            "url": "https://raw.githubusercontent.com/william726726/jasonette/master/index.json",
-            "options": {
-              "url": "{{$jason.url}}"
-            }
-          }
-        }
-      }
-    },
     "body": {
       "header": {
         "menu": {
-          "text": "Back",
-          "action": {
-            "type": "$back"
-          }
+          "items": [{
+            "type": "vertical",
+            "components": [{
+              "type": "button",
+              "text": "Back",
+              "action": {
+                "type": "$back"
+              }
+            }]
+          }]
         }
       },
       "background": {
         "type": "html",
-        "url": "{{$get.url}}",
+        "url": "https://github.com",
         "action": {
-          "type": "navigate"
+          "type": "$default"
         }
       }
     }
