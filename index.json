@@ -1,32 +1,34 @@
 {
   "$jason": {
-    "body": {
-      "header": {
-        "title": "Test App",
-        "style": {
-          "background": "#ff0000"
-        }
-      },
-      "background": {
-        "type": "html",
-        "url": "https://github.com",
-        "action": {
-          "type": "$default"
-        }
-      },
-      "layers": [{
-        "type": "label",
-        "text": "👈",
-        "style": {
-          "top": "10",
-          "right": "10",
-          "width": "100",
-          "height": "100"
+    "templates": {
+      "body": {
+        "header": {
+          "title": "Test App",
+          "style": {
+            "background": "#ff0000"
+          }
         },
-        "action": {
-          "type": "$back"
-        }
-      }]
+        "background": {
+          "type": "html",
+          "url": "https://github.com",
+          "action": {
+            "type": "$default"
+          }
+        },
+        "layers": [{
+          "type": "label",
+          "text": "👈",
+          "style": {
+            "top": "10",
+            "right": "10",
+            "width": "100",
+            "height": "100"
+          },
+          "action": {
+            "type": "$back"
+          }
+        }]
+      }
     }
   }
 }
