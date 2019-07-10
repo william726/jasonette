@@ -1,0 +1,47 @@
+{
+    "$jason": {
+        "head": {
+            "title": "SFVM",
+            "actions": {
+                "$foreground": {
+                    "type": "$reload"
+                },
+                "$load": {
+                    "type": "$set",
+                    "options": {
+                        "url": [{
+                            "{{#if $params && 'url' in $params && String($params.url).includes('sfvm.la')}}": "{{$params.url}}?mobile-app-view=true"
+                        }, {
+                            "{{#elseif $params && 'url' in $params}}": "{{$params.url}}"
+                        }, {
+                            "{{#else}}": "http://sfvm.la?mobile-app-view=true"
+                        }]
+                    },
+                    "success": {
+                        "type": "$render"
+                    }
+                },
+                "navigate": {
+                    "type": "$href",
+                    "options": {
+                        "url": "https://raw.githubusercontent.com/Alzy/sfvm-jsonette-app/master/sfvm.json",
+                        "options": {
+                            "url": "{{$jason.url}}"
+                        }
+                    }
+                }
+            },
+            "templates": {
+                "body": {
+                    "background": {
+                        "type": "html",
+                        "url": "{{$get.url}}",
+                        "action": {
+                            "trigger": "navigate"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
