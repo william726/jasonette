@@ -1,5 +1,8 @@
 {
   "$jason": {
+    "head": {
+      "title": "External - Links"
+    },
     "templates": {
       "body": {
         "header": {
