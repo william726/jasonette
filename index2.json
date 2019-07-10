@@ -9,7 +9,7 @@
                         "url": [{
                             "{{#if $params && 'url' in $params}}": "{{$params.url}}"
                         }, {
-                            "{{#else}}": "https://www.google.com"
+                            "{{#else}}": "https://github.com"
                         }]
                     },
                     "success": {
@@ -19,7 +19,7 @@
                 "navigate": {
                     "type": "$href",
                     "options": {
-                        "url": "file://native_transition.json",
+                        "url": "https://raw.githubusercontent.com/william726/jasonette/master/index2.json",
                         "options": {
                             "url": "{{$jason.url}}"
                         }
