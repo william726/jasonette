@@ -1,5 +1,19 @@
 {
   "$jason": {
+    "head": {
+      "title": "Test Transition",
+      "actions": {
+        "navigate" :{
+          "type": "$href",
+          "options": {
+            "url": "https://raw.githubusercontent.com/william726726/jasonette/master/index.json",
+            "options": {
+              "url": "{{$jason.url}}"
+            }
+          }
+        }
+      }
+    },
     "body": {
       "header": {
         "menu": {
@@ -11,9 +25,9 @@
       },
       "background": {
         "type": "html",
-        "url": "https://github.com",
+        "url": "{{$get.url}}",
         "action": {
-          "type": "$default"
+          "type": "navigate"
         }
       }
     }
