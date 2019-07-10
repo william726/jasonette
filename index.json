@@ -1,0 +1,21 @@
+{
+  "$jason": {
+    "head": {
+      "title": "{ ˃̵̑ᴥ˂̵̑}",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "background": {
+        "type": "html",
+        "url": "https://github.com",
+        "action": {
+          "trigger": "navigate"
+        }
+      }
+    }
+  }
+}
