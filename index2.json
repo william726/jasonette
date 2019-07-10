@@ -39,8 +39,7 @@
                 "header": {
                     "title": "Test App",
                     "style": {
-                      "background": "#ff0000",
-                      "color": "#ffffff"
+                      "background": "#ff0000"
                     }
                 }
             }
