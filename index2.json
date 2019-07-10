@@ -1,20 +1,15 @@
 {
     "$jason": {
         "head": {
-            "title": "SFVM",
+            "title": "Web Container Native Transition",
             "actions": {
-                "$foreground": {
-                    "type": "$reload"
-                },
                 "$load": {
                     "type": "$set",
                     "options": {
                         "url": [{
-                            "{{#if $params && 'url' in $params && String($params.url).includes('sfvm.la')}}": "{{$params.url}}?mobile-app-view=true"
+                            "{{#if $params && 'url' in $params}}": "{{$params.url}}"
                         }, {
-                            "{{#elseif $params && 'url' in $params}}": "{{$params.url}}"
-                        }, {
-                            "{{#else}}": "http://sfvm.la?mobile-app-view=true"
+                            "{{#else}}": "https://www.google.com"
                         }]
                     },
                     "success": {
@@ -24,7 +19,7 @@
                 "navigate": {
                     "type": "$href",
                     "options": {
-                        "url": "https://raw.githubusercontent.com/Alzy/sfvm-jsonette-app/master/sfvm.json",
+                        "url": "file://native_transition.json",
                         "options": {
                             "url": "{{$jason.url}}"
                         }
