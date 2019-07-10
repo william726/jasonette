@@ -27,6 +27,12 @@
                 }
             },
             "templates": {
+                "header": {
+                    "title": "Test App",
+                    "style": {
+                      "background": "#ff0000"
+                    }
+                },
                 "body": {
                     "background": {
                         "type": "html",
@@ -34,12 +40,6 @@
                         "action": {
                             "trigger": "navigate"
                         }
-                    }
-                },
-                "header": {
-                    "title": "Test App",
-                    "style": {
-                      "background": "#ff0000"
                     }
                 }
             }
