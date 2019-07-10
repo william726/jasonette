@@ -19,7 +19,7 @@
                 "navigate": {
                     "type": "$href",
                     "options": {
-                        "url": "https://raw.githubusercontent.com/william726/jasonette/master/index2.json",
+                        "url": "https://raw.githubusercontent.com/william726/jasonette/master/native-transition-github.json",
                         "options": {
                             "url": "{{$jason.url}}"
                         }
