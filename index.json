@@ -1,12 +1,12 @@
 {
   "$jason": {
-    "header": {
-      "title": "Test App",
-      "style": {
-        "background": "#ff0000"
-      }
-    },
     "body": {
+      "header": {
+        "title": "Test App",
+        "style": {
+          "background": "#ff0000"
+        }
+      },
       "background": {
         "type": "html",
         "url": "https://github.com",
