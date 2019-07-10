@@ -9,7 +9,7 @@
                         "url": [{
                             "{{#if $params && 'url' in $params}}": "{{$params.url}}"
                         }, {
-                            "{{#else}}": "https://github.com"
+                            "{{#else}}": "https://axaustrial.sharepoint.com/sites/bddintranetportal"
                         }]
                     },
                     "success": {
