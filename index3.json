@@ -2,13 +2,37 @@
     "$jason": {
         "head": {
             "title": "Web Container Native Transition",
+            "actions": {
+                "$load": {
+                    "type": "$set",
+                    "options": {
+                        "url": [{
+                            "{{#if $params && 'url' in $params}}": "{{$params.url}}"
+                        }, {
+                            "{{#else}}": "https://axaustrial.sharepoint.com/sites/bddintranetportal"
+                        }]
+                    },
+                    "success": {
+                        "type": "$render"
+                    }
+                },
+                "navigate": {
+                    "type": "$href",
+                    "options": {
+                        "url": "https://raw.githubusercontent.com/william726/jasonette/master/index2.json",
+                        "options": {
+                            "url": "{{$jason.url}}"
+                        }
+                    }
+                }
+            },
             "templates": {
                 "body": {
                     "background": {
                         "type": "html",
-                        "url": "https://github.com",
+                        "url": "{{$get.url}}",
                         "action": {
-                            "type": "$default"
+                            "trigger": "navigate"
                         }
                     },
                     "header": {
