@@ -35,7 +35,14 @@
                             "trigger": "navigate"
                         }
                     }
+                },
+                "header": {
+                    "title": "Test App",
+                    "style": {
+                      "background": "#ff0000",
+                      "color": "#ffffff"
                 }
+          },
             }
         }
     }
