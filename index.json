@@ -1,5 +1,11 @@
 {
   "$jason": {
+    "header": {
+      "title": "Test App",
+      "style": {
+        "background": "#ff0000"
+      }
+    },
     "body": {
       "background": {
         "type": "html",
