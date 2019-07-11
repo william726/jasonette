@@ -1,0 +1,41 @@
+{
+  "$jason": {
+    "head": {
+      "title": "External - Links",
+      "description": "Opens tab if external link",
+      "actions": {
+        "handleLink": [
+          {
+            "{{#if $jason.url.indexOf('sharepoint') == -1 }}": {
+              "type": "$href",
+              "options": {
+                "url": "{{$jason.url}}",
+                "view": "web"
+              }
+            }
+          },
+          {
+            "{{#else}}": {
+              "type": "$default"
+            }
+          }
+        ]
+      }
+    },
+    "body": {
+      "header": {
+        "title": "Test App",
+        "style": {
+          "background": "#808080"
+        }
+      },
+      "background": {
+        "type": "html",
+        "url": "https://axaustrial.sharepoint.com/sites/bddintranetportal",
+        "action": {
+          "type": "$default"
+        }
+      }
+    }
+  }
+}
