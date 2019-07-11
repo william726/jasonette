@@ -1,22 +1,17 @@
 {
   "$jason": {
-    "head": {
-      "title": "External - Links"
-    },
-    "templates": {
-      "body": {
-        "header": {
-          "title": "Test App",
-          "style": {
-            "background": "#ff0000"
-          }
-        },
-        "background": {
-          "type": "html",
-          "url": "https://github.com",
-          "action": {
-            "type": "$default"
-          }
+    "body": {
+      "header": {
+        "title": "Test App",
+        "style": {
+          "background": "#ff0000"
+        }
+      },
+      "background": {
+        "type": "html",
+        "url": "https://github.com",
+        "action": {
+          "type": "$default"
         }
       }
     }
