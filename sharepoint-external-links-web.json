@@ -23,6 +23,12 @@
       }
     },
     "body": {
+      "header": {
+        "title": "Test App",
+        "style": {
+          "background": "#808080"
+        }
+      },
       "background": {
         "type": "html",
         "url": "https://axaustrial.sharepoint.com/sites/bddintranetportal",
