@@ -6,7 +6,7 @@
       "actions": {
         "handleLink": [
           {
-            "{{#if $jason.url.indexOf('sharepoint') == -1 }}": {
+            "{{#if $jason.url.indexOf('axaustrial.sharepoint') == -1 }}": {
               "type": "$href",
               "options": {
                 "url": "{{$jason.url}}",
