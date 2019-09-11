@@ -3,13 +3,13 @@
     "body": {
       "header": {
         "title": "Test App",
-        "style": {https://github.com/william726/jasonette
+        "style": {
           "background": "#808080"
         }
       },
       "background": {
         "type": "html",
-        "url": "https://axanorthamerica.sharepoint.com/sites/Intranet",
+        "url": "https://axaustrial.sharepoint.com/sites/bddintranetportal",
         "action": {
           "type": "$default"
         }
