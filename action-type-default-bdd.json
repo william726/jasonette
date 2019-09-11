@@ -1,0 +1,19 @@
+{
+  "$jason": {
+    "body": {
+      "header": {
+        "title": "Test App",
+        "style": {https://github.com/william726/jasonette
+          "background": "#808080"
+        }
+      },
+      "background": {
+        "type": "html",
+        "url": "https://axanorthamerica.sharepoint.com/sites/Intranet",
+        "action": {
+          "type": "$default"
+        }
+      }
+    }
+  }
+}
